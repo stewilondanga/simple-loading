@@ -1,4 +1,4 @@
-/*body {
+body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -6,7 +6,13 @@
   background-size: 100%;
 }
 
-.my_social {
+body, html{
+	height: 96vh;
+	background-color: #111;
+	color: white;
+}
+
+/*.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
@@ -50,11 +56,7 @@
 	animation-direction: alternate;
 	text-shadow: 0 0 1px white;
 }
-body, html{
-	height: 96vh;
-	background-color: #111;
-	color: white;
-}
+
 .containers {
   width: 520px;
   margin: 20px auto;
