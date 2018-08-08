@@ -1,15 +1,12 @@
-body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 body, html{
 	height: 96vh;
 	background-color: #111;
 	color: white;
+}
+
+body {
+  text-align: center;
+  font-family: courier;
 }
 
 /*.my_social {
